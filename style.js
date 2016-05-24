@@ -1,8 +1,7 @@
-var React = require('react-native');
 
-var {StyleSheet} = React;
+import {StyleSheet} from 'react-native'
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   IconBadge: {
     position:'absolute',
     top:1,
@@ -16,4 +15,4 @@ var styles = StyleSheet.create({
   },
 });
 
-module.exports = styles;
+export default styles

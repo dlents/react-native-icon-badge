@@ -1,8 +1,6 @@
-var React = require('react-native');
-var sytle = require('./style');
-var {
-  View,
-} = React;
+import React from 'react'
+import { View } from 'react-native'
+import styles from './style'
 
 class IconBadge extends React.Component {
   constructor(props){
@@ -13,10 +11,10 @@ class IconBadge extends React.Component {
     return (
       <View>
         {
-          //mian element
+          //main element
           this.props.MainElement
         }
-        <View style={[sytle.IconBadge, (this.props.IconBadgeStyle ? this.props.IconBadgeStyle : {})]}>
+        <View style={[styles.IconBadge, (this.props.IconBadgeStyle ? this.props.IconBadgeStyle : {})]}>
           {
             // badge element
             this.props.BadgeElement
@@ -27,4 +25,4 @@ class IconBadge extends React.Component {
   }
 }
 
-module.exports = IconBadge;
+export default IconBadge

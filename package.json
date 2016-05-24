@@ -16,7 +16,8 @@
     "react-native-component"
   ],
   "peerDependencies": {
-    "react-native": "*"
+    "react": "~15.0.2",
+    "react-native": "^0.26.1"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0",
